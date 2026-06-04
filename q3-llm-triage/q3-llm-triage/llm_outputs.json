@@ -1,0 +1,45 @@
+{
+  "model": "ChatGPT/Gemini",
+  "prompt_version": "v2.0",
+  "results": [
+    {
+      "message": "The air conditioning is running overnight in an empty office.",
+      "output": {
+        "issue_category": "ENERGY",
+        "urgency": "MEDIUM",
+        "sentiment": "NEGATIVE",
+        "followup_required": "Y",
+        "recommended_team": "Facilities Management",
+        "escalation_reason": null,
+        "data_sensitivity_risk": "NONE",
+        "brief_summary": "Air conditioning operating overnight in unoccupied office indicating unnecessary energy consumption."
+      }
+    },
+    {
+      "message": "I want to report that one of our suppliers may not meet our sustainability policy.",
+      "output": {
+        "issue_category": "PROCUREMENT",
+        "urgency": "HIGH",
+        "sentiment": "URGENT",
+        "followup_required": "Y",
+        "recommended_team": "Sustainable Procurement Team",
+        "escalation_reason": "Potential supplier non-compliance requires investigation",
+        "data_sensitivity_risk": "MEDIUM",
+        "brief_summary": "Supplier may not meet organisation sustainability policy requirements."
+      }
+    },
+    {
+      "message": "The accessible entrance near the main building has been blocked for two days.",
+      "output": {
+        "issue_category": "ACCESSIBILITY",
+        "urgency": "HIGH",
+        "sentiment": "URGENT",
+        "followup_required": "Y",
+        "recommended_team": "Facilities Management",
+        "escalation_reason": "Blocked accessible entrance presents compliance risk",
+        "data_sensitivity_risk": "NONE",
+        "brief_summary": "Accessible entrance obstructed for two days impacting accessibility compliance."
+      }
+    }
+  ]
+}
